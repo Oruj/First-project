@@ -1,0 +1,57 @@
+header {
+    background-image: url(https://s3.amazonaws.com/gbstool/emails/2028/design1_image1.jpg?AWSAccessKeyId=AKIAJBIZLMJQ2O6DKIAA&Expires=1497517200&Signature=xDl9bf7jnDhKKTZMRHiw8EKAmjk%3D);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    
+    }
+h1  {
+    text-align: center;
+}
+h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+img {
+    float: right;
+    margin: 1px;
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+}
+ 
+article{
+    margin-right: 150px;
+    margin-left: 480px;
+    position: absolute;
+    top: 324px;
+}
+p.p1{
+    float: left;
+    border: none;
+    color: black;
+    position: absolute;
+    top: 323px;
+    right: 1280px;
+}
+p.p2{
+    float: left;
+    border: none;
+    color: black;
+    position: absolute;
+    top: 360px;
+    right: 1234px;
+}
+p.p3{
+    float: left;
+    border: none;
+    color: black;
+    position: absolute;
+    top: 394px;
+    right: 1270px;
+}

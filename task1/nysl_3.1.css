@@ -1,0 +1,67 @@
+html{
+    background-image: url(https://s3.amazonaws.com/gbstool/emails/2028/design1_image1.jpg?AWSAccessKeyId=AKIAJBIZLMJQ2O6DKIAA&Expires=1497517200&Signature=xDl9bf7jnDhKKTZMRHiw8EKAmjk%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    max-width: 200px; 
+    max-height: 200px;
+    
+    
+    
+}
+
+}
+h1{
+    text-align: center;
+    color: white;
+}
+h2{
+    text-align: left;
+    position: absolute;
+    right: 153px;
+    top: 251px;
+    color: white;
+}
+article {
+    text-align: left;
+    position: absolute;
+    right: 27px;
+    top: 304px;
+    color: white;
+    margin-left: 833px;
+}
+p.p1{
+    float: left;
+    background-color: #9E9E9E;
+    border: none;
+    color: black;
+    padding: 5px 25px;
+    position: absolute;
+    top: 8px;
+    right: 1243px;
+}
+p.p2{
+    float: left;
+    background-color: #9E9E9E;
+    border: none;
+    color: black;
+    padding: 5px 3px;
+    position: absolute;
+    top: 127px;
+    right: 1239px;
+}
+p.p3{
+    float: left;
+    background-color: #9E9E9E;
+    border: none;
+    color: black;
+    padding: 5px 20px;
+    position: absolute;
+    top: 250px;
+    right: 1239px;
+}

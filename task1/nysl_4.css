@@ -1,0 +1,27 @@
+.oruc {
+    border: 1px solid black;
+}
+
+header {
+    display: flex; /* or inline-flex */
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(https://s3.amazonaws.com/gbstool/emails/2028/design1_image1.jpg?AWSAccessKeyId=AKIAJBIZLMJQ2O6DKIAA&Expires=1497949200&Signature=0l8F8qNiZwNLMGzMaH3aq0GEaS4%3D);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 200px;
+}
+
+h1 {
+    color: black;
+}
+
+img {
+    height: 165px;
+}
+
+nav {
+    background-color: aliceblue;
+}

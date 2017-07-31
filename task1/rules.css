@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+    text-align: left;
+    position: absolute;
+    right: 27px;
+    top: 304px;
+    color: white;
+    margin-left: 833px;
