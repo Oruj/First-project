@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <tit></tit>
+</head>
+
+<body>
+    <h2>Senators</h2>
+    
+    
+    
+    
+    <table id='senate-data'>
+        <tr>
+            <th>Name</th>
+            <th>Party</th>
+            <th>State</th>
+            <th>Seniorty</th>
+            <th>Votes</th>
+        </tr>
+
+    </table>
+
+    <script src="13_senate.js"></script>
+    <script>
+        // document.getElementById("senate-data").innerHTML = JSON.stringify(data, null, 2);
+    </script>
+    <script>
+        var table = document.getElementById('senate-data');
+        var member = data.results[0].members;
+        for (var i = 0; i < member.length; i++) {
+            if (member[i].middle_name == null) {
+                member[i].middle_name = '';
+            }
+            var row = document.createElement('tr');
+            row.insertCell().innerHTML = member[i].first_name + ' ' + member[i].middle_name + ' ' + member[i].last_name;
+            row.insertCell().innerHTML = member[i].party;
+            row.insertCell().innerHTML = member[i].state;
+            row.insertCell().innerHTML = member[i].seniority;
+            row.insertCell().innerHTML = member[i].votes_with_party_pct + "%";
+            table.append(row);
+
+        }
+    </script>
+</body>
+
+</html>
